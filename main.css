@@ -1,0 +1,39 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+button {
+  margin-left: 500px;
+  margin-top: 200px;
+}
+#game-board {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 370px;
+  margin-left: 500px;
+  position: relative;
+  top: 130px;
+  border: 2px solid black;
+  transition: 0.5s ease;
+  border-radius: 4px;
+}
+.cell {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.row {
+	position: relative;
+	border-radius: 4px;
+	left: 10%;
+	right: 10%;
+}
+
+
+#game-board:hover {
+	transform: scale(1.1);
+}
